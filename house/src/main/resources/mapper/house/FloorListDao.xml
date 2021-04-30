@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="zwf.shopping.house.dao.FloorListDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="zwf.shopping.house.entity.FloorListEntity" id="floorListMap">
+        <result property="lilstId" column="lilst_id"/>
+        <result property="titleId" column="title_id"/>
+        <result property="name" column="name"/>
+        <result property="imageSrc" column="image_src"/>
+        <result property="imageWidth" column="image_width"/>
+        <result property="openType" column="open_type"/>
+        <result property="navigatorUrl" column="navigator_url"/>
+    </resultMap>
+
+
+</mapper>

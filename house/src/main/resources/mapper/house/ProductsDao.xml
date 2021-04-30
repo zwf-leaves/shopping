@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="zwf.shopping.house.dao.ProductsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="zwf.shopping.house.entity.ProductsEntity" id="productsMap">
+        <result property="goodsId" column="goods_id"/>
+        <result property="catId" column="cat_id"/>
+        <result property="goodsName" column="goods_name"/>
+        <result property="goodsPrice" column="goods_price"/>
+        <result property="goodsImg" column="goods_img"/>
+        <result property="goodsIntroduce" column="goods_introduce"/>
+        <result property="addTime" column="add_time"/>
+        <result property="updTime" column="upd_time"/>
+        <result property="hotMumber" column="hot_mumber"/>
+        <result property="query" column="query"/>
+        <result property="address" column="address"/>
+        <result property="discount" column="discount"/>
+    </resultMap>
+
+
+</mapper>
